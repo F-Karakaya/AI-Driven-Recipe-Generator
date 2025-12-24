@@ -57,6 +57,7 @@ Below is the typical workflow for AI-driven recipe generation:
 
 ### 1. Clone the Repository
 git clone https://github.com/F-Karakaya/AI-Driven-Recipe-Generator.git
+
 cd AI-Driven-Recipe-Generator
 
 ### 2. Install Dependencies
@@ -75,7 +76,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 ### 4. Run the Application
 Start the server or open index.html in your browser:
 npm start   # if using Node
-# or
+or
 php -S localhost:8000   # for PHP
 
 ## 📦 Deployment
