@@ -56,18 +56,28 @@ Below is the typical workflow for AI-driven recipe generation:
 ## 🛠️ Usage
 
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/F-Karakaya/AI-Driven-Recipe-Generator.git
+```
 
+```bash
 cd AI-Driven-Recipe-Generator
+```
 
 ### 2. Install Dependencies
 If the project uses a backend (PHP/Node/Python), install appropriate dependencies.
 For example, in a Node/Express setup:
+
+```bash
 npm install
+```
 
 If using PHP and hosting locally:
 Use Apache or PHP built-in server:
+
+```bash
 php -S localhost:8000
+```
 
 ### 3. Configure AI API Keys
 To connect with an AI service (e.g., OpenAI), create a .env:
@@ -75,9 +85,16 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ### 4. Run the Application
 Start the server or open index.html in your browser:
-npm start   # if using Node
+
+```bash
+npm start
+```
+
 or
-php -S localhost:8000   # for PHP
+
+```bash
+php -S localhost:8000 
+```
 
 ## 📦 Deployment
 Deploy on platforms supporting static + server logic:
